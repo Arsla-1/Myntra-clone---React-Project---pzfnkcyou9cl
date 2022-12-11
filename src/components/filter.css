@@ -1,0 +1,12 @@
+/* .Filter__gender {
+  display: flex;
+  flex-direction: column;
+} */
+
+.Filter__container {
+  margin-top: 30px;
+  /* background-color: aqua; */
+  padding: 0 40px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}

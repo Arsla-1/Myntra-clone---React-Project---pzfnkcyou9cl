@@ -1,0 +1,23 @@
+.product__row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+  flex: 1;
+}
+
+.container {
+  display: flex;
+}
+
+.filter {
+  width: 20%;
+}
+
+.cart__container {
+  height: 70%;
+  width: 75%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
