@@ -1,0 +1,128 @@
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.orderdetail {
+  margin-bottom: 4px;
+}
+
+.Total {
+  text-align: center;
+}
+.modal__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.modal__body {
+  font-size: 1.8rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.orderSummary {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  flex-basis: 200px;
+}
+
+.orderSummary h1 {
+  font-size: 25px;
+}
+
+.orderdetail {
+  display: flex;
+  justify-content: space-around;
+}
+
+.checkoutbtn__container {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.checkoutbtn {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #f51cb3;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.checkoutbtn:hover,
+.checkoutbtn:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.checkoutbtn:hover {
+  transform: translateY(-1px);
+}
+
+.checkoutbtn:active {
+  background-color: #f51cb3;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
