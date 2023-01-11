@@ -4,7 +4,7 @@ import Nav from "./components/Nav";
 import Product from "./components/Product";
 import Filter from "./components/Filter";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Cart from "./components/Cart";
+
 
 import { useState } from "react";
 
@@ -31,7 +31,7 @@ const App = () => {
           />
         </Routes>
         <div cart__container>
-          <Cart />
+          
         </div>
       </BrowserRouter>
     </>
